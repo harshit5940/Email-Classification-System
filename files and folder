@@ -1,0 +1,14 @@
+email-support-classifier-api/
+├── app.py
+├── api.py
+├── models.py
+├── utils.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── data/
+│   └── support_emails.csv  # (placeholder for dataset)
+├── saved_models/
+│   └── classifier.pkl       # (trained model)
+│   └── vectorizer.pkl       # (TF-IDF or tokenizer)
+├── report.pdf               # (2–3 page report)
