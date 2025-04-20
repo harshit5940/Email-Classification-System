@@ -1,0 +1,11 @@
+email-classification-api/
+├── app.py                # Main app entry point
+├── api.py                # API endpoints using FastAPI or Flask
+├── models.py             # Model training and loading functions
+├── utils.py              # PII masking/demasking and helper functions
+├── data/                 # Provided dataset for training/testing
+│   └── support_emails.csv
+├── saved_models/         # Saved classification models and encoders
+├── requirements.txt      # Python dependencies
+├── README.md             # Setup and usage instructions
+└── report.pdf            # Project report
